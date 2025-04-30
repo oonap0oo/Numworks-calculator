@@ -7,7 +7,7 @@ Python code made to run on a Numworks calculator
 
 Tested on the calculator using software version 23.2.6. Draws a Sierpinsky triangle on the screen. Defines one function sierp(), this function can be used with 1 parameter defining the number of iterations. Uses libraries math and kandinsky.
 
-## logistic.py
+## logistic2.py
 
 ![logistic_screenshot_small.jpg](logistic_screenshot_small.jpg)
 
