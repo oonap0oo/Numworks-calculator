@@ -16,3 +16,9 @@ Tested on the calculator using software version 23.2.6. Function logistic_map() 
 ## heron.py
 
 Tested on the calculator using software version 23.2.6. Defines a function heronarea() which calculates the area of a triangle in terms of the three side lengths. The function can be calles with the three lengths as parameters or without parameters. This code can run on CPython as well.
+
+## bal.py
+
+![bal_screenshot.png](bal_screenshot.png)
+
+Tested on the calculator using software version 23.2.6. This code tests the matplotlib library of the calculator. It plots ballistic trajectories for a series of different starting angles. It uses libraries math, numpy and matplotlib.pyplot.
