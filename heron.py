@@ -20,3 +20,5 @@ def heronarea(a=0,b=0,c=0):
   A=sqrt(s*A)
   print("Area A = "+str(A))
   return A
+  
+heronarea()

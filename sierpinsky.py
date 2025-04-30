@@ -11,3 +11,5 @@ def sierp(n=50000):
     py=0.5*(py+h[k][1])
     kandinsky.set_pixel(int(px),int(py),cs[oldk])
     oldk=k
+    
+sierp()
