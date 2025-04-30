@@ -11,7 +11,7 @@ Tested on the calculator using software version 23.2.6. Draws a Sierpinsky trian
 
 ![logistic2_screenshot.png](logistic2_screenshot.png)
 
-Tested on the calculator using software version 23.2.6. Function logistic_map() draws the bifurcation diagram of the logistic map on the screen. Uses libraries math, numpy and kandinsky. Can be used with 2 parameters logistic_map(astart, aend)
+Tested on the calculator using software version 23.2.6. Function logistic_map() draws the bifurcation diagram of the logistic map on the screen. Uses libraries math and kandinsky. Can be used with 2 parameters logistic_map(astart, aend)
 
 ## heron.py
 
