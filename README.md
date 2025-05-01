@@ -13,6 +13,12 @@ Tested on the calculator using software version 23.2.6. Draws a Sierpinsky trian
 
 Tested on the calculator using software version 23.2.6. Function logistic_map() draws the bifurcation diagram of the logistic map on the screen. Uses libraries math and kandinsky. Can be used with 2 parameters logistic_map(astart, aend)
 
+## tree.py
+
+![tree_screenshot.png](tree_screenshot.png)
+
+Tested on the calculator using software version 23.2.6. This program draws a tree using recursive function calls. It uses the turtle module for the drawing.
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
