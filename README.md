@@ -19,6 +19,13 @@ Tested on the calculator using software version 23.2.6. Function logistic_map() 
 
 Tested on the calculator using software version 23.2.6. This program draws a tree using recursive function calls. It uses the turtle module for the drawing.
 
+## graph_3d.py
+
+![graph_3d_screenshot.png](graph_3d_screenshot.png)
+
+This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). The matplotlib version on the calculator only has 2D capability. This program also has to function within memory which is allocated to Python on the calculator. Tested on the calculator using software version 23.2.6.
+
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
