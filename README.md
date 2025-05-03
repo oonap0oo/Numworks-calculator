@@ -25,6 +25,10 @@ Tested on the calculator using software version 23.2.6. This program draws a tre
 
 This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). The matplotlib version on the calculator only has 2D capability. This program also has to function within memory which is allocated to Python on the calculator. Tested on the calculator using software version 23.2.6.
 
+## graph3d_kandinsky.py
+![graph3d_kandinsky_screenshot.png](graph3d_kandinsky_screenshot.png)
+
+This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). This version uses the kandiinsky module. Tested on the calculator using software version 23.2.6.
 
 ## heron.py
 
