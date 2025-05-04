@@ -1,6 +1,8 @@
 # Numworks-calculator
 Python code made to run on a Numworks calculator
 
+Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.com/python/vnap0v)
+
 ## sierpinsky.py
 
 ![sierpinski_screenshot.png](sierpinski_screenshot.png)
