@@ -30,6 +30,11 @@ This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y).
 
 This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). This version uses the kandiinsky module. Tested on the calculator using software version 23.2.6.
 
+## sphere.py
+![sphere_screenshot.png](sphere_screenshot.png)
+
+This code draws a rotating sphere using the kandinsky module. It also uses the sleep function of the time module and sin(), cos() from the math module. Tested on the calculator using software version 23.2.6.
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
