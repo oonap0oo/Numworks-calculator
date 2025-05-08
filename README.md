@@ -48,3 +48,19 @@ Tested on the calculator using software version 23.2.6. Defines a function heron
 ![bal_screenshot.png](bal_screenshot.png)
 
 Tested on the calculator using software version 23.2.6. This code tests the matplotlib library of the calculator. It plots ballistic trajectories for a series of different starting angles. It uses libraries math, numpy and matplotlib.pyplot. This code can run on CPython as well.
+
+## rpn.py
+
+![rpn_screenshot.png](rpn_screenshot.png)
+
+This script implements a simple Reverse Polish Notation calculator. 
+Numbers are entered on the stack before the operators. 
+For example 
+```
+5*6=
+```
+would here be entered as 
+```
+5 [Exe] 6 [Exe] * [Exe]
+```
+Tested on the calculator using software version 23.2.6
