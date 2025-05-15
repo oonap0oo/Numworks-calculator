@@ -3,6 +3,12 @@ Python code made to run on a Numworks calculator
 
 Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.com/python/vnap0v)
 
+## julia.py
+
+![julia_screenshot.png](julia_screenshot.png)
+
+This code displays the Julia set. It uses the kandinsky module. Tested on the calculator using software version 23.2.6.
+
 ## sierpinsky.py
 
 ![sierpinski_screenshot.png](sierpinski_screenshot.png)
