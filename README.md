@@ -9,6 +9,12 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
 This code displays the Julia set. It uses the kandinsky module. Tested on the calculator using software version 23.2.6.
 
+## mandelbrot_nap0.py
+
+![mandelbot_nap0_screenshot.png](mandelbot_nap0_screenshot.png)
+
+There is a official Numworks Mandelbrot script. This is a different version made from scratch. Uses the library kandinsky. Tested on the calculator using software version 23.2.6.
+
 ## sierpinsky.py
 
 ![sierpinski_screenshot.png](sierpinski_screenshot.png)
