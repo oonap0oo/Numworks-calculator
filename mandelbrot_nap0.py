@@ -6,7 +6,7 @@ for x in range(320):
     c=complex(re,im)
     z=0
     i=0
-    while abs(z)<2 and i<255:
+    while abs(z)<2 and i<64:
       z=z**2+c
       i+=1
     r=(i % 64)*4
