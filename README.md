@@ -76,3 +76,14 @@ would here be entered as
 5 [Exe] 6 [Exe] * [Exe]
 ```
 Tested on the calculator using software version 23.2.6
+
+## monte.py
+
+![monte_screenshot3.png](monte_screenshot3.png)
+
+![monte_screenshot3.png](monte_screenshot2.png)
+
+This uses Monte Carlo method to calculate the effect of resistor spread on the output voltage of a 2 resistor voltage divider.
+The function montecarlo can be used with or without arguments. Numpy and matplotlib are used, a histogram is displayed at the end. 
+
+Tested on the calculator using software version 23.2.6.
