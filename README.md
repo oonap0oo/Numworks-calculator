@@ -87,3 +87,9 @@ This uses Monte Carlo method to calculate the effect of resistor spread on the o
 The function montecarlo can be used with or without arguments. Numpy and matplotlib are used, a histogram is displayed at the end. 
 
 Tested on the calculator using software version 23.2.6.
+
+## resistor.py
+
+![resistor_screenshot2.png](resistor_screenshot2.png)
+
+This script finds the best approximation of an arbitrary resistance value using two series or two parallel resistors out of the standard E12 and E24 series. It imports no modules.Tested on the calculator using software version 23.2.6.
