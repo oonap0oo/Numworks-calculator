@@ -88,6 +88,16 @@ The function montecarlo can be used with or without arguments. Numpy and matplot
 
 Tested on the calculator using software version 23.2.6.
 
+## runge.py
+
+![runge_screenshot.png](runge_screenshot.png)
+
+This script uses the 4-order Runge-Kutta method to solve a differential equation.
+As example a simple exponential decay function is used.
+The solution is plotted together with the directly calculated exponential function.
+It uses libraries  numpy and matplotlib.pyplot.
+This code can run on CPython as well. Tested on the calculator using software version 23.2.6.
+
 ## resistor.py
 
 ![resistor_screenshot2.png](resistor_screenshot2.png)
