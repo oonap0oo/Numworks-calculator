@@ -103,3 +103,15 @@ This code can run on CPython as well. Tested on the calculator using software ve
 ![resistor_screenshot2.png](resistor_screenshot2.png)
 
 This script finds the best approximation of an arbitrary resistance value using two series or two parallel resistors out of the standard E12 and E24 series. It imports no modules.Tested on the calculator using software version 23.2.6.
+
+## quirk.py
+
+![quirk_screenshot_calc.png](quirk_screenshot_calc.png)
+
+This script demonstrates a quirk with the numpy implementation in Numworks. 
+When tested with software version 23.2.6. 
+When multiplying a int or float with a numpy array an error occurs if the int or float comes first. 
+For example as in float * array. When the array comes first as in array * float the operation works fine. 
+Also converting the int or float to a one element array eliminates the error.
+
+
