@@ -114,4 +114,8 @@ When multiplying a int or float with a numpy array an error occurs if the int or
 For example as in float * array. When the array comes first as in array * float the operation works fine. 
 Also converting the int or float to a one element array eliminates the error.
 
+## stopwatch.py
 
+![stopwatch_screenshot.png](stopwatch_screenshot.png)
+
+This implements a simple stopwatch. It uses the time module for the monotonic() function. It also uses kandinsky to put text on the screen at a fixed position and ion to detect key presses. Tested on the calculator using software version 23.2.6.
