@@ -119,3 +119,9 @@ Also converting the int or float to a one element array eliminates the error.
 ![stopwatch_screenshot.png](stopwatch_screenshot.png)
 
 This implements a simple stopwatch. It uses the time module for the monotonic() function. It also uses kandinsky to put text on the screen at a fixed position and ion to detect key presses. Tested on the calculator using software version 23.2.6.
+
+## ohm.py
+
+![ohm_screenshot.png](ohm_screenshot.png)
+
+This ‘Ohms law helper’ allows you to type the two known variables with the unit added for example 5V or 0.1A or 10000ohm and the script automatically calculates the third variable which was unknown. Uses no imported libraries, also runs in CPython on a PC. Tested on the calculator using software version 23.2.6.
