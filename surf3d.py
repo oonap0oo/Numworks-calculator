@@ -41,8 +41,6 @@ def surf(fun,xrange,yrange,zrange,txt=""):
 # function call to plot surface 
 surf(sinc,(-12, 12),(-12, 12),(-0.1, 1.0),"z=sinc(x,y)")
 #surf(sincos,(-4,4),(-4,4),(-1,2),"sinxcos")
-     
-# only for running under Cpython:
-kandinsky.mainloop()
+
 
 
