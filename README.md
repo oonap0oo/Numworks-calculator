@@ -19,7 +19,7 @@ There is a official Numworks Mandelbrot script. This is a different version made
 
 ![sierpinski_screenshot.png](sierpinski_screenshot.png)
 
-Tested on the calculator using software version 23.2.6. Draws a Sierpinsky triangle on the screen. Defines one function sierp(), this function can be used with 1 parameter defining the number of iterations. Uses libraries math and kandinsky.
+ Draws a Sierpinsky triangle on the screen. Defines one function sierp(), this function can be used with 1 parameter defining the number of iterations. Uses libraries math and kandinsky. Tested on the calculator using software version 23.2.6.
 
 ## logistic2.py
 
@@ -27,22 +27,17 @@ Tested on the calculator using software version 23.2.6. Draws a Sierpinsky trian
 
 Tested on the calculator using software version 23.2.6. Function logistic_map() draws the bifurcation diagram of the logistic map on the screen. Uses libraries math and kandinsky. Can be used with 2 parameters logistic_map(astart, aend)
 
+## surf3d.py
+![surf3d_screenshot.png](surf3d_screenshot.png)
+![surf3d_screenshot2.png](surf3d_screenshot2.png)
+
+This script draws a 3D surface plot. The expression to plot is defined in a python function which takes 2 arguments (x,y) and returns z. Plotting is performed by python function surf() which takes arguments telling it which function to plot and the ranges on x,y and z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
+
 ## tree.py
 
 ![tree_screenshot.png](tree_screenshot.png)
 
-Tested on the calculator using software version 23.2.6. This program draws a tree using recursive function calls. It uses the turtle module for the drawing.
-
-## graph_3d.py
-
-![graph_3d_screenshot.png](graph_3d_screenshot.png)
-
-This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). The matplotlib version on the calculator only has 2D capability. This program also has to function within memory which is allocated to Python on the calculator. Tested on the calculator using software version 23.2.6.
-
-## graph3d_kandinsky.py
-![graph3d_kandinsky_screenshot.png](graph3d_kandinsky_screenshot.png)
-
-This program draws a 3D plot. The function to plot is defined in f_to_plot(x,y). This version uses the kandiinsky module. Tested on the calculator using software version 23.2.6.
+ This program draws a tree using recursive function calls. It uses the turtle module for the drawing. Tested on the calculator using software version 23.2.6.
 
 ## sphere.py
 ![sphere_screenshot.png](sphere_screenshot.png)
