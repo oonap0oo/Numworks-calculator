@@ -33,6 +33,14 @@ Tested on the calculator using software version 23.2.6. Function logistic_map() 
 
 This script draws a 3D surface plot. The expression to plot is defined in a python function which takes 2 arguments (x,y) and returns z. Plotting is performed by python function surf() which takes arguments telling it which function to plot and the ranges on x,y and z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
 
+## line3d.py
+
+![line3d_screenshot1.png](line3d_screenshot1.png)
+![line3d_screenshot2.png](line3d_screenshot2.png)
+![line3d_screenshot3.png](line3d_screenshot3.png)
+
+This script plots sets of 3 expressions x=f(t),y=g(t),z=h(t)using a simple 3D projection. The expressions to plot are defined in a python function which takes one argument t and returns three values for x,y and z. . Plotting is performed by python function line() which takes arguments telling it which function to plot and the ranges on parameter t, and x, y, z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
+
 ## tree.py
 
 ![tree_screenshot.png](tree_screenshot.png)
