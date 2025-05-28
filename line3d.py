@@ -58,10 +58,6 @@ def line(fun,trange,xrange,yrange,zrange,txt=""):
 line(wave,(-10,10),(-1,1),(-1,1),(-10,10),"wave")
 
 
-    
-    
-     
-# only for running under Cpython:
-kandinsky.mainloop()
+
 
 
