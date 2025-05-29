@@ -27,8 +27,6 @@ for a in range(N):
   y2=int(R*sin(angle2)+100+.5)
   connect(x1,y1,x2,y2,"blue")
     
-     
-# only for running under Cpython:
-kandinsky.mainloop()
+
 
 
