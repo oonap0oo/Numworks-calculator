@@ -41,12 +41,16 @@ This script draws a 3D surface plot. The expression to plot is defined in a pyth
 
 This script plots sets of 3 expressions x=f(t),y=g(t),z=h(t)using a simple 3D projection. The expressions to plot are defined in a python function which takes one argument t and returns three values for x,y and z. . Plotting is performed by python function line() which takes arguments telling it which function to plot and the ranges on parameter t, and x, y, z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
 
-## lines_kandinsky.py
+## entend_kandinsky.py
 
-![lines_kandinsky_screenshot.png](lines_kandinsky_screenshot.png)
+![entend_kandinsky_screenshot.png](entend_kandinsky_screenshot.png)
 
-Besides using turtle or matplotlib, Python code on the Numworks calc has the Kandinsky library to draw directly to the screen drawing pixels, rectangles and text. But it does not contain a function to draw a line between two random points
-Made this script that defines function connect() which draws a line between two given points. The script also contains a test of that function drawing several lines of different color.
+The Kandinsky library has functions to directly draw to the screen but it does not contain a function to draw a line between any two points or a function to draw circles. 
+
+This script defines function connect() which draws a line between two given points and function circle() to draw circles. It uses kandinsky.set_pixel(). 
+
+The script also contains a test of that function drawing several lines of different color. 
+
 Tested on the calculator using software version 23.2.6.
 
 ## tree.py
