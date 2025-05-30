@@ -56,7 +56,5 @@ for r in range(2,12,2):
   circle(150,100,r,"orange")
     
      
-# only for running under Cpython:
-kandinsky.mainloop()
 
 
