@@ -119,6 +119,12 @@ This code can run on CPython as well. Tested on the calculator using software ve
 
 This script finds the best approximation of an arbitrary resistance value using two series or two parallel resistors out of the standard E12 and E24 series. It imports no modules.Tested on the calculator using software version 23.2.6.
 
+## colorcode.py
+![colorcode_screenshot1.png](colorcode_screenshot1.png)
+![colorcode_screenshot4.png](colorcode_screenshot4.png)
+
+By entering the color-bands of a resistor this scripts gives the value and tolerance. Works with 4 band or 5 band resistors. The script also runs in CPython on a PC. Tested on the calculator using software version 23.2.6.
+
 ## quirk.py
 
 ![quirk_screenshot_calc.png](quirk_screenshot_calc.png)
