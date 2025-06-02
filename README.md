@@ -62,7 +62,13 @@ Tested on the calculator using software version 23.2.6.
 ## sphere.py
 ![sphere_screenshot.png](sphere_screenshot.png)
 
-This code draws a rotating sphere using the kandinsky module. It also uses the sleep function of the time module and sin(), cos() from the math module. Tested on the calculator using software version 23.2.6.
+This code draws a rotating sphere using the kandinsky module. It also uses the sleep function of the time module and sin(), cos() from the math module. Tested on the calculator using software version 23.2.6. 
+
+## mystify.py
+
+![mystify_screenshot.png](mystify_screenshot.png)
+
+This script displays a simplified “Mystify” screensaver known from past versions of MS Windows. It uses the kandinsky library for drawing, random library for the random corner points and the time library to pace the animation. Tested on the calculator using software version 23.2.6.
 
 ## heron.py
 
