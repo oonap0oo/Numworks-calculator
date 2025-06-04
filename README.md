@@ -147,6 +147,13 @@ Also converting the int or float to a one element array eliminates the error.
 
 This implements a simple stopwatch. It uses the time module for the monotonic() function. It also uses kandinsky to put text on the screen at a fixed position and ion to detect key presses. Tested on the calculator using software version 23.2.6.
 
+## ellipse.py
+
+![ellipse_screenshot1.png](ellipse_screenshot1.png)
+![ellipse_screenshot2.png](ellipse_screenshot2.png)
+
+There is no closed-form expression for the circumference of an ellipse. This script approximates the circumference using the sum of a series. Height and width can be given, the ellipse is also plotted. Uses math and matplotlib. Tested on the calculator using software version 23.2.6.
+
 ## ohm.py
 
 ![ohm_screenshot.png](ohm_screenshot.png)
