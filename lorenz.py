@@ -69,7 +69,7 @@ def draw_lorenz(N=8000,h=0.005): # N: number of steps, #h: time step
         xscr_old,yscr_old=xscr,yscr
     connect(xscr_old,yscr_old,xscr,yscr,kandinsky.color(255-c,0,c))
     xscr_old,yscr_old=xscr,yscr
-    kandinsky.draw_string("Lorenz",20,5,"blue")
+    kandinsky.draw_string("Lorenz",20,5,"blue","black")
   
 draw_lorenz()
 
