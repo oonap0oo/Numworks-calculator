@@ -73,7 +73,3 @@ def draw_lorenz(N=8000,h=0.005): # N: number of steps, #h: time step
   
 draw_lorenz()
 
-
-
-# only for running under Cpython:
-kandinsky.mainloop()
