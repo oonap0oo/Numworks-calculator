@@ -18,12 +18,12 @@ import kandinsky
 #---- = xy - βz
 # dt
 
-# Euler method applied on Lorenz su-ystem
+# Euler method applied on Lorenz system
 def euler_lorenz(x,y,z,h,sigma,beta,rho):
   dx_dt=sigma*(y-x)# lorenz system
   dy_dt=x*(rho-z)-y
   dz_dt=x*y-beta*z
-  x_new=x+dx_dt*h# Euler methos
+  x_new=x+dx_dt*h# Euler method
   y_new=y+dy_dt*h
   z_new=z+dz_dt*h
   return(x_new,y_new,z_new)
