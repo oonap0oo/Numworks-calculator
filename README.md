@@ -70,6 +70,11 @@ This code draws a rotating sphere using the kandinsky module. It also uses the s
 
 This script displays a simplified “Mystify” screensaver known from past versions of MS Windows. It uses the kandinsky library for drawing, random library for the random corner points and the time library to pace the animation. Tested on the calculator using software version 23.2.6.
 
+## lorenz.py
+![lorenz_screenshot.png](lorenz_screenshot.png)
+
+This script draws a sample solution to the Lorenz System. it uses a simple Euler method to calculate the values. The graph is drawn using kandinsky, it also uses the math library. Tested on the calculator using software version 23.2.6.
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
