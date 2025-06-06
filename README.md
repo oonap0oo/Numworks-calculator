@@ -75,6 +75,13 @@ This script displays a simplified “Mystify” screensaver known from past vers
 
 This script draws a sample solution to the Lorenz System. it uses a simple Euler method to calculate the values. The graph is drawn using kandinsky, it also uses the math library. Tested on the calculator using software version 23.2.6.
 
+## fitdata.py
+![fitdata_screenshot.png](fitdata_screenshot.png)
+![fitdata_screenshot2.png](fitdata_screenshot2.png)
+
+The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). Tested on the calculator using software version 23.2.6
+
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
