@@ -79,7 +79,7 @@ This script draws a sample solution to the Lorenz System. it uses a simple Euler
 ![fitdata_screenshot.png](fitdata_screenshot.png)
 ![fitdata_screenshot2.png](fitdata_screenshot2.png)
 
-The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). Tested on the calculator using software version 23.2.6
+The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). Tested on the calculator using software version 23.2.6. Also works in CPython on a PC
 
 
 ## heron.py
