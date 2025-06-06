@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 data_x=(2,4,8,12,15,18,21,23,27,29)
 data_y=(-16.1,-3.8,8.9,1.8,-3.5,-6.2,2.4,12.2,26.3,42.2)
 
-# sting repr. of polynomial
+# string repr. of polynomial
 def pol2str(pol):
   s=""
   for k,coeff in enumerate(pol):
