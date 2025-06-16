@@ -167,6 +167,24 @@ Also converting the int or float to a one element array eliminates the error.
 
 This implements a simple stopwatch. It uses the time module for the monotonic() function. It also uses kandinsky to put text on the screen at a fixed position and ion to detect key presses. Tested on the calculator using software version 23.2.6.
 
+## stopwatch7segments.py
+
+![stopwatch7segments_screenshot.png](stopwatch7segments_screenshot.png)
+
+Stopwatch which displays time in 7 segment characters similar to vintage equipment. 
+
+The 7 segment characters are drawn using the function
+
+    kandinsky.fill_rect() 
+
+A Python dictionary contains the information that decides which segments should be visible when displaying a certain character. The on/off state is stated as boolean literals True or False.
+
+The position and orientation of the 7 segments is kept in a nested tuple.
+
+The script also uses the time and ion libraries.
+
+Tested on the calculator using software version 23.2.6.
+
 ## ellipse.py
 
 ![ellipse_screenshot1.png](ellipse_screenshot1.png)
