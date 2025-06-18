@@ -89,6 +89,24 @@ This script draws a sample solution to the Lorenz System. it uses a simple Euler
 
 The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). Tested on the calculator using software version 23.2.6. Also works in CPython on a PC
 
+## simpson.py
+
+![simpson_screenshot.png](simpson_screenshot.png)
+
+The Numworks calculator can calculate definite integrals without coding using the Calculation or Grapher apps.
+
+However this script explores the "1/3 Simpson rule" for definite integrals. It defines the function:
+
+    simpson(fun,a,b,n)
+
+* fun is a python function of one variable to apply integration on
+* a, b is the integration interval
+* n is the number of points to be used
+
+The rest of the script generates a plot illustrating the function and showing the result as text.
+
+Tested on the calculator using software version 23.2.6.
+
 
 ## heron.py
 
