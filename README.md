@@ -107,6 +107,30 @@ The rest of the script generates a plot illustrating the function and showing th
 
 Tested on the calculator using software version 23.2.6.
 
+# Mass-Spring-Damper
+
+![mass-spring-damper_screenshot.png](mass-spring-damper_screenshot.png)
+
+This script plots a solution for the dampened mass-spring system using a simple Euler method. The second degree ODE has to be modified into two first order ODEs.
+
+    d²x/dt²+ 2*ζ*ωn*dx/dt + ωn²*x = 0
+    v = dx/dt
+
+    => dv/dt + 2*ζ*ωn*v + ωn²*x = 0
+
+    => dv/dt = -2*ζ*ωn*v - ωn²*x
+       dx/dt = v
+
+     ωn = sqrt(k/m)
+     ζ = c/(2*m*ωn)
+
+* Undamped systems ζ = 0
+* Underdamped systems ζ < 1
+* Critically damped systems ζ = 1
+* Overdamped systems ζ > 1
+
+The script uses matplotlib for plotting.
+
 
 ## heron.py
 
