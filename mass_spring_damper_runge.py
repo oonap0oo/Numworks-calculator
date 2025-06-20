@@ -66,9 +66,9 @@ for k in range(N_plot):
       t+=h
 #plot
 plt.plot(t_arr,x_arr)
-plt.text(T/8,1.05,"Mass-Spring-Damper system")
-plt.text(T/8,0.95,"Using Runge-Kutta Method")
-plt.text(T/8,0.75,"Damping ζ = {0:.2f}".format(zeta))
+plt.text(T/8,1.15,"Mass-Spring-Damper system")
+plt.text(T/8,1,"Using Runge-Kutta Method")
+plt.text(T/8,0.7,"Damping ζ = {0:.2f}".format(zeta))
 plt.text(T/8,0.85,"Natural frequency ωn = {0:.2f} rad/s".format(omega_n))
 plt.grid()
 plt.show()
