@@ -136,6 +136,22 @@ The second degree ODE for the mass-spring-damper system has to be modified into 
 
 These scripts use matplotlib for plotting.
 
+## orbit.py
+
+![orbit_screenshot.png](orbit_screenshot.png)
+
+This script simulates the trajectory of orbiting satellites. 
+
+It shows one geostationary orbit and one elliptical. 
+
+Uses the libraries 
+
+* kandinsky for output
+* time to pace the simulation
+* math for the sqrt() function 
+* ion to be able to stop the simulation by hitting the EXE key
+
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
