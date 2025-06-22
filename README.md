@@ -151,6 +151,19 @@ Uses the libraries
 * math for the sqrt() function 
 * ion to be able to stop the simulation by hitting the EXE key
 
+## rms.py
+
+![rms_screenshot1.png](rms_screenshot1.png)
+
+This script calculates the average and root mean square values of some common waveforms. 
+
+After selection of a waveform the avg and rms are shown as function of amplitude.
+
+The user can enter amplitude and in case of a pulse the duty-cycle. The numerical values for avg and rms are then calculated.
+
+The information about the waveforms is stored in a nested tuple.
+
+Only the math library is used. The code also runs on a PC using CPython.
 
 ## heron.py
 
