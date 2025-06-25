@@ -107,8 +107,18 @@ The rest of the script generates a plot illustrating the function and showing th
 
 Tested on the calculator using software version 23.2.6.
 
-# Mass-Spring-Damper
-# mass_spring_damper_runge
+## runge.py
+
+![runge_screenshot.png](runge_screenshot.png)
+
+This script uses the 4-order Runge-Kutta method to solve a differential equation.
+As example a simple exponential decay function is used.
+The solution is plotted together with the directly calculated exponential function.
+It uses libraries  numpy and matplotlib.pyplot.
+This code can run on CPython as well. Tested on the calculator using software version 23.2.6.
+
+
+## mass_spring_damper_runge.py
 
 ![mass-spring-damper_screenshot.png](mass-spring-damper_screenshot.png)
 ![mass_spring_damper_runge_screenshot.png](mass_spring_damper_runge_screenshot.png)
@@ -135,6 +145,27 @@ The second degree ODE for the mass-spring-damper system has to be modified into 
 * Overdamped systems ζ > 1
 
 These scripts use matplotlib for plotting.
+
+##  pendulum_runge4.py
+
+![pendulum_screenshot.png](pendulum_screenshot.png)
+
+Damped, driven pendulum
+
+This script calculates a solution to the ODE for a driven pendulum with damping. 
+
+    I*d(dθ/dt)/dt + m*g*l*sin(θ) + b*dθ/dt = a*cos(Ω*t)
+
+This second order non linear ODE has been to be modified to a system of two first order ODEs. 
+
+    dω/dt = 1/I*( -g*m/l*sin(θ) - b*ω + a*cos(Ω*t) )
+    dθ/dt = ω
+
+The script uses a 4th order Runge-Kutta method  to calculate a solution of this system.
+
+This solution is then plotted.
+
+The libraries math, numpy and matplotlib are used.
 
 ## orbit.py
 
@@ -203,16 +234,6 @@ This uses Monte Carlo method to calculate the effect of resistor spread on the o
 The function montecarlo can be used with or without arguments. Numpy and matplotlib are used, a histogram is displayed at the end. 
 
 Tested on the calculator using software version 23.2.6.
-
-## runge.py
-
-![runge_screenshot.png](runge_screenshot.png)
-
-This script uses the 4-order Runge-Kutta method to solve a differential equation.
-As example a simple exponential decay function is used.
-The solution is plotted together with the directly calculated exponential function.
-It uses libraries  numpy and matplotlib.pyplot.
-This code can run on CPython as well. Tested on the calculator using software version 23.2.6.
 
 ## resistor.py
 
