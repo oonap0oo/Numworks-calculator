@@ -196,6 +196,19 @@ The information about the waveforms is stored in a nested tuple.
 
 Only the math library is used. The code also runs on a PC using CPython.
 
+## rc.py
+
+![rc_screenshot.png](rc_screenshot.png)
+![rc_screenshot2.png](rc_screenshot2.png)
+
+This script defines a number of functions to calculate the impedance of resistor - capacitor combinations
+
+* zcap(c,f) impedance of capacitance c at frequency f, returns a complex number for impedance
+* zseries(r,c,f) impedance of series resistance r and capacitance c at frequency f, returns a complex number for impedance
+* zparall(r,c,f) impedance of parallel resistance r and capacitance c at frequency f, returns a complex number for impedance
+* z_all() to keep things interactive, this function asks for input values and returns impedance of bith series and parallel combinations
+
+
 ## heron.py
 
 ![heron_screenshot.png](heron_screenshot.png)
