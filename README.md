@@ -208,6 +208,17 @@ This script defines a number of functions to calculate the impedance of resistor
 * zparall(r,c,f) impedance of parallel resistance r and capacitance c at frequency f, returns a complex number for impedance
 * z_all() to keep things interactive, this function asks for input values and returns impedance of bith series and parallel combinations
 
+Exponential notation can be used to input values for example
+
+    1e-6
+
+for a capacitance value means 
+
+    0.000001 Farad or
+    1 micro Farad
+
+The code also runs on CPython on a PC 
+
 
 ## heron.py
 
