@@ -182,6 +182,30 @@ Uses the libraries
 * math for the sqrt() function 
 * ion to be able to stop the simulation by hitting the EXE key
 
+## euler_spiral.py
+
+![euler_spiral_screenshot.png](euler_spiral_screenshot.png)
+
+This script draws an "Euler's Spiral" also known as "Cornu Spiral".
+
+Two Fresnel integrals have to be calculated, this code uses a Maclaurin series approximation.
+
+Also the Numworks math module does not seem to have a factorial function, so this had to be coded as well.
+
+It also uses a function coded here in Python to draw a line between any two x,y points.
+
+It is possible to draw this spiral using the Numworks calculator's graphing app as well.
+
+## random_walk.py
+
+![random_walk_screenshot.png](random_walk_screenshot.png)
+
+Two-dimensional Lattice random walk
+
+This script shows random walks on a 2D lattice. When the walk goes beyond limits the  process starts over.
+
+The script uses the turtle library for drawing and the random library to choose a random heading at each step
+
 ## rms.py
 
 ![rms_screenshot1.png](rms_screenshot1.png)
