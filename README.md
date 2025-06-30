@@ -15,6 +15,18 @@ This code displays the Julia set. It uses the kandinsky module. Tested on the ca
 
 There is a official Numworks Mandelbrot script. This is a different version made from scratch. Uses the library kandinsky. Tested on the calculator using software version 23.2.6.
 
+## mandelbrot_text.py
+
+![mandelbrot_text_screenshot.png](mandelbrot_text_screenshot.png)
+
+This code displays a text output of the Mandelbrot fractal.
+
+The text is colored, to achieve this the kandinsky library is used with the draw_string() function.
+
+The last digit of the hexadecimal Mandelbrot values is displayed.
+
+The color also depends on the value.
+
 ## sierpinsky.py
 
 ![sierpinski_screenshot.png](sierpinski_screenshot.png)
