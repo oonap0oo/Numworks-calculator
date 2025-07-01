@@ -73,6 +73,21 @@ The script also contains a test of that function drawing several lines of differ
 
 Tested on the calculator using software version 23.2.6.
 
+## Bezier curves 
+
+![bezier2_screenshot.png](bezier2_screenshot.png)
+
+This script defines functions which can draw Bezier curves using the kandinsky library
+
+the function that does the actual drawing is:
+
+    draw_bezier(funct_bezier,points,Nsteps,col)
+
+* funct_bezier: either bezier1(), bezier2() or bezier3()
+* points is a list or tuple of (x,y)
+* Nsteps: number of points calculated, are connected with straight lines
+* col: color to draw
+
 ## tree.py
 
 ![tree_screenshot.png](tree_screenshot.png)
