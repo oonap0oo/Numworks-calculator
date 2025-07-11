@@ -223,6 +223,31 @@ It also uses a function coded here in Python to draw a line between any two x,y 
 
 It is possible to draw this spiral using the Numworks calculator's graphing app as well.
 
+## Truchet Tiles using Python & Turtle
+
+![truchet_numworks_screenshot.png](truchet_numworks_screenshot.png)
+
+This script is a strong simplification of a version made for CPython to run on a PC
+see:
+[GitHub truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle?tab=readme-ov-file#truchet_tiles2py)
+
+This numworks version also uses the Turtle library, unlike the PC version it does not have the capability to fill a shape.
+
+This script shows a series of patterns of Truchet Tiles.
+
+The tiles are drawn using the Turtle libary. All patters are made from 4 different tiles.
+
+The patterns are defined as rows and columns of tile numbers, for this nested tuples are used:
+
+    pattern_X = (
+        (2,4,3,4,4,2),
+        (2,1,2,2,4,4),
+        (3,4,4,2,2,4),
+        (2,2,4,4,2,1),
+        (4,2,2,4,3,4),
+        (4,4,2,1,2,2)
+        )
+
 ## random_walk.py
 
 ![random_walk_screenshot.png](random_walk_screenshot.png)
