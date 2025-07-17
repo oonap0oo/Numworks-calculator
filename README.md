@@ -248,6 +248,25 @@ The patterns are defined as rows and columns of tile numbers, for this nested tu
         (4,4,2,1,2,2)
         )
 
+## turtle_python_logo_numworks.py
+
+![turtle_python_logo_numworks_screenshot.png](turtle_python_logo_numworks_screenshot.png)
+
+Turtle graphics does have a circle function but no ellipse.
+
+This script defines a function to draw an ellipse using Turtle graphics.
+
+    def ellipse(a, b , direction, **kwargs):
+      a, b: size of ellipse
+      direction: positive for counterclockwise, negative for clockwise
+      keyword arguments:
+      extent: part of ellipse to draw as angle in degrees
+      npoints: number of steps to use
+
+
+The ellipse function is then used to draw a python logo using Turtle graphics.
+
+
 ## random_walk.py
 
 ![random_walk_screenshot.png](random_walk_screenshot.png)
