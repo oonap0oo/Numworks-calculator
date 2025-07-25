@@ -61,6 +61,26 @@ This script draws a 3D surface plot. The expression to plot is defined in a pyth
 
 This script plots sets of 3 expressions x=f(t),y=g(t),z=h(t)using a simple 3D projection. The expressions to plot are defined in a python function which takes one argument t and returns three values for x,y and z. . Plotting is performed by python function line() which takes arguments telling it which function to plot and the ranges on parameter t, and x, y, z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
 
+## recursive_tree_numworks.py
+
+![recursive_tree_numworks_screenshot.png](recursive_tree_numworks_screenshot.png)
+
+This script draws recursively generated trees. 
+
+The function
+
+    def branch(length, depth, width):
+
+recursively calls itself, when recursion limit is not yet reached
+
+* it draws a branch and calls itself twice after changing the heading
+
+* when recursion limit is reached it draws a leaf
+
+A lot of the tree's parameters have random variation. 
+
+The code uses Turtle graphics for drawing, the timer function to wait after each tree and random to introduce random variations.
+
 ## entend_kandinsky.py
 
 ![entend_kandinsky_screenshot.png](entend_kandinsky_screenshot.png)
