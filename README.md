@@ -427,8 +427,38 @@ Tested on the calculator using software version 23.2.6.
 
 There is no closed-form expression for the circumference of an ellipse. This script approximates the circumference using the sum of a series. Height and width can be given, the ellipse is also plotted. Uses math and matplotlib. Tested on the calculator using software version 23.2.6.
 
+
 ## ohm.py
 
 ![ohm_screenshot.png](ohm_screenshot.png)
 
 This ‘Ohms law helper’ allows you to type the two known variables with the unit added for example 5V or 0.1A or 10000ohm and the script automatically calculates the third variable which was unknown. Uses no imported libraries, also runs in CPython on a PC. Tested on the calculator using software version 23.2.6.
+
+## matrix.py
+
+![matrix_screenshot.png](matrix_screenshot.png)
+
+This script defines two functions, they can be used to solve a 
+
+* linear system of 2 equations with 2 variables
+* linear system of 3 equations with 3 variables
+
+of the form
+
+    A.x = b
+    
+The functions are:
+
+    solve_system_2(A, b)
+    solve_system_3(A, b)
+A is 2x2 or 3x3 matrix containing the coefficients
+
+b is a 2 or 3 element vector containing the constants
+
+The matrix and vector are processed as Python lists    
+
+example:
+
+    A=[[6, -5],
+       [-7, 2]]
+    b=[2, -3]
