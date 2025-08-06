@@ -152,6 +152,28 @@ This script draws a sample solution to the Lorenz System. it uses a simple Euler
 
 The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). Tested on the calculator using software version 23.2.6. Also works in CPython on a PC
 
+## [leibniz.py](leibniz.py)
+
+
+![leibniz_screenshot.png](leibniz_screenshot.png)
+
+Leibniz formula for approximation of pi
+
+    pi ≈ 4 *  sum[ (-1)**k / (2*k + 1) ]
+    for k=0 .. inf
+
+The script shows the approximation after a first number of iterations.
+
+Matplotlib and numpy are used to plot the values.
+
+The code optimises the formula by
+
+* using a  variable "denom" which starts at 1 and increases by 2 
+instead off calculating (2*k + 1) each iteration
+
+* using  variable "sign" which toggles between +1 and -1, 
+ instead off calculating (-1)**k
+
 ## [simpsonrule.py](simpsonrule.py)
 
 
