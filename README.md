@@ -272,6 +272,21 @@ Uses the libraries
 * math for the sqrt() function 
 * ion to be able to stop the simulation by hitting the EXE key
 
+## [trajectory_drag_numworks.py](trajectory_drag_numworks.py)
+
+![trajectory_drag_numworks_screenshot.png](trajectory_drag_numworks_screenshot.png)
+
+Ballistic trajectory of projectile with drag proportional to square of velocity
+System of first order ODEs
+
+    v = sqrt(vx**2 + vy**2)
+    dx/dt = vx
+    dy/dt = vy
+    dvx/dt = -mu * vx * v
+    dvy/dt = -g - mu * vy * v
+
+These are solved numerically using Euler's method. Plot made using matplotlib.
+
 ## [euler_spiral.py](euler_spiral.py)
 
 
