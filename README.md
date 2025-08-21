@@ -5,90 +5,92 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
 ## Contents
 
-   * [julia.py](https://github.com/oonap0oo/small-Python-projects#juliapy)
+   
+   * [Content](https://github.com/oonap0oo/Numworks-calculator#Content)
 
-   * [mandelbrot_nap0.py](https://github.com/oonap0oo/small-Python-projects#mandelbrot_nap0py)
+   * [julia.py](https://github.com/oonap0oo/Numworks-calculator#juliapy)
 
-   * [mandelbrot_text.py](https://github.com/oonap0oo/small-Python-projects#mandelbrot_textpy)
+   * [mandelbrot_nap0.py](https://github.com/oonap0oo/Numworks-calculator#mandelbrot_nap0py)
 
-   * [sierpinsky.py](https://github.com/oonap0oo/small-Python-projects#sierpinskypy)
+   * [mandelbrot_text.py](https://github.com/oonap0oo/Numworks-calculator#mandelbrot_textpy)
 
-   * [logistic2.py](https://github.com/oonap0oo/small-Python-projects#logistic2py)
+   * [sierpinsky.py](https://github.com/oonap0oo/Numworks-calculator#sierpinskypy)
 
-   * [gingerbread.py](https://github.com/oonap0oo/small-Python-projects#gingerbreadpy)
+   * [logistic2.py](https://github.com/oonap0oo/Numworks-calculator#logistic2py)
 
-   * [surf3d.py](https://github.com/oonap0oo/small-Python-projects#surf3dpy)
+   * [gingerbread.py](https://github.com/oonap0oo/Numworks-calculator#gingerbreadpy)
 
-   * [line3d.py](https://github.com/oonap0oo/small-Python-projects#line3dpy)
+   * [surf3d.py](https://github.com/oonap0oo/Numworks-calculator#surf3dpy)
 
-   * [recursive_tree_numworks.py](https://github.com/oonap0oo/small-Python-projects#recursive_tree_numworkspy)
+   * [line3d.py](https://github.com/oonap0oo/Numworks-calculator#line3dpy)
 
-   * [entend_kandinsky.py](https://github.com/oonap0oo/small-Python-projects#entend_kandinskypy)
+   * [recursive_tree_numworks.py](https://github.com/oonap0oo/Numworks-calculator#recursive_tree_numworkspy)
 
-   * [Bezier curves](https://github.com/oonap0oo/small-Python-projects#Bezier curves)
+   * [entend_kandinsky.py](https://github.com/oonap0oo/Numworks-calculator#entend_kandinskypy)
 
-   * [tree.py](https://github.com/oonap0oo/small-Python-projects#treepy)
+   * [Bezier curves](https://github.com/oonap0oo/Numworks-calculator#Bezier curves)
 
-   * [sphere.py](https://github.com/oonap0oo/small-Python-projects#spherepy)
+   * [tree.py](https://github.com/oonap0oo/Numworks-calculator#treepy)
 
-   * [mystify.py](https://github.com/oonap0oo/small-Python-projects#mystifypy)
+   * [sphere.py](https://github.com/oonap0oo/Numworks-calculator#spherepy)
 
-   * [lorenz.py](https://github.com/oonap0oo/small-Python-projects#lorenzpy)
+   * [mystify.py](https://github.com/oonap0oo/Numworks-calculator#mystifypy)
 
-   * [fitdata.py](https://github.com/oonap0oo/small-Python-projects#fitdatapy)
+   * [lorenz.py](https://github.com/oonap0oo/Numworks-calculator#lorenzpy)
 
-   * [leibniz.py](https://github.com/oonap0oo/small-Python-projects#leibnizpy)
+   * [fitdata.py](https://github.com/oonap0oo/Numworks-calculator#fitdatapy)
 
-   * [simpsonrule.py](https://github.com/oonap0oo/small-Python-projects#simpsonrulepy)
+   * [leibniz.py](https://github.com/oonap0oo/Numworks-calculator#leibnizpy)
 
-   * [runge.py](https://github.com/oonap0oo/small-Python-projects#rungepy)
+   * [simpsonrule.py](https://github.com/oonap0oo/Numworks-calculator#simpsonrulepy)
 
-   * [mass_spring_damper_runge.py](https://github.com/oonap0oo/small-Python-projects#mass_spring_damper_rungepy)
+   * [runge.py](https://github.com/oonap0oo/Numworks-calculator#rungepy)
 
-   * [pendulum_runge4.py](https://github.com/oonap0oo/small-Python-projects#pendulum_runge4py)
+   * [mass_spring_damper_runge.py](https://github.com/oonap0oo/Numworks-calculator#mass_spring_damper_rungepy)
 
-   * [orbit.py](https://github.com/oonap0oo/small-Python-projects#orbitpy)
+   * [pendulum_runge4.py](https://github.com/oonap0oo/Numworks-calculator#pendulum_runge4py)
 
-   * [trajectory_drag_numworks.py](https://github.com/oonap0oo/small-Python-projects#trajectory_drag_numworkspy)
+   * [orbit.py](https://github.com/oonap0oo/Numworks-calculator#orbitpy)
 
-   * [ode2.py](https://github.com/oonap0oo/small-Python-projects#ode2py)
+   * [trajectory_drag_numworks.py](https://github.com/oonap0oo/Numworks-calculator#trajectory_drag_numworkspy)
 
-   * [euler_spiral.py](https://github.com/oonap0oo/small-Python-projects#euler_spiralpy)
+   * [ode2.py](https://github.com/oonap0oo/Numworks-calculator#ode2py)
 
-   * [Truchet Tiles using Python & Turtle](https://github.com/oonap0oo/small-Python-projects#Truchet Tiles using Python & Turtle)
+   * [euler_spiral.py](https://github.com/oonap0oo/Numworks-calculator#euler_spiralpy)
 
-   * [turtle_python_logo_numworks.py](https://github.com/oonap0oo/small-Python-projects#turtle_python_logo_numworkspy)
+   * [Truchet Tiles using Python & Turtle](https://github.com/oonap0oo/Numworks-calculator#Truchet Tiles using Python & Turtle)
 
-   * [random_walk.py](https://github.com/oonap0oo/small-Python-projects#random_walkpy)
+   * [turtle_python_logo_numworks.py](https://github.com/oonap0oo/Numworks-calculator#turtle_python_logo_numworkspy)
 
-   * [rms.py](https://github.com/oonap0oo/small-Python-projects#rmspy)
+   * [random_walk.py](https://github.com/oonap0oo/Numworks-calculator#random_walkpy)
 
-   * [rc.py](https://github.com/oonap0oo/small-Python-projects#rcpy)
+   * [rms.py](https://github.com/oonap0oo/Numworks-calculator#rmspy)
 
-   * [heron.py](https://github.com/oonap0oo/small-Python-projects#heronpy)
+   * [rc.py](https://github.com/oonap0oo/Numworks-calculator#rcpy)
 
-   * [bal.py](https://github.com/oonap0oo/small-Python-projects#balpy)
+   * [heron.py](https://github.com/oonap0oo/Numworks-calculator#heronpy)
 
-   * [rpn.py](https://github.com/oonap0oo/small-Python-projects#rpnpy)
+   * [bal.py](https://github.com/oonap0oo/Numworks-calculator#balpy)
 
-   * [monte.py](https://github.com/oonap0oo/small-Python-projects#montepy)
+   * [rpn.py](https://github.com/oonap0oo/Numworks-calculator#rpnpy)
 
-   * [resistor.py](https://github.com/oonap0oo/small-Python-projects#resistorpy)
+   * [monte.py](https://github.com/oonap0oo/Numworks-calculator#montepy)
 
-   * [colorcode.py](https://github.com/oonap0oo/small-Python-projects#colorcodepy)
+   * [resistor.py](https://github.com/oonap0oo/Numworks-calculator#resistorpy)
 
-   * [quirk.py](https://github.com/oonap0oo/small-Python-projects#quirkpy)
+   * [colorcode.py](https://github.com/oonap0oo/Numworks-calculator#colorcodepy)
 
-   * [stopwatch.py](https://github.com/oonap0oo/small-Python-projects#stopwatchpy)
+   * [quirk.py](https://github.com/oonap0oo/Numworks-calculator#quirkpy)
 
-   * [stopwatch7segments.py](https://github.com/oonap0oo/small-Python-projects#stopwatch7segmentspy)
+   * [stopwatch.py](https://github.com/oonap0oo/Numworks-calculator#stopwatchpy)
 
-   * [ellipse.py](https://github.com/oonap0oo/small-Python-projects#ellipsepy)
+   * [stopwatch7segments.py](https://github.com/oonap0oo/Numworks-calculator#stopwatch7segmentspy)
 
-   * [ohm.py](https://github.com/oonap0oo/small-Python-projects#ohmpy)
+   * [ellipse.py](https://github.com/oonap0oo/Numworks-calculator#ellipsepy)
 
-   * [matrix.py](https://github.com/oonap0oo/small-Python-projects#matrixpy)
+   * [ohm.py](https://github.com/oonap0oo/Numworks-calculator#ohmpy)
 
+   * [matrix.py](https://github.com/oonap0oo/Numworks-calculator#matrixpy)
 
 ## [julia.py](julia.py)
 
