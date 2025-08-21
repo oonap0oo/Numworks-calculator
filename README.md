@@ -28,7 +28,7 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
    * [entend_kandinsky.py](https://github.com/oonap0oo/Numworks-calculator#entend_kandinskypy)
 
-   * [Bezier curves](https://github.com/oonap0oo/Numworks-calculator#Bezier curves)
+   * [bezier2.py](https://github.com/oonap0oo/Numworks-calculator#bezier2py)
 
    * [tree.py](https://github.com/oonap0oo/Numworks-calculator#treepy)
 
@@ -58,7 +58,7 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
    * [euler_spiral.py](https://github.com/oonap0oo/Numworks-calculator#euler_spiralpy)
 
-   * [Truchet Tiles using Python & Turtle](https://github.com/oonap0oo/Numworks-calculator#Truchet Tiles using Python & Turtle)
+   * [truchet_numworks.py](https://github.com/oonap0oo/Numworks-calculator#truchet_numworkspy)
 
    * [turtle_python_logo_numworks.py](https://github.com/oonap0oo/Numworks-calculator#turtle_python_logo_numworkspy)
 
@@ -192,8 +192,7 @@ The script also contains a test of that function drawing several lines of differ
 
 Tested on the calculator using software version 23.2.6.
 
-## [Bezier curves](Bezier curves)
-
+## [bezier2.py](bezier2.py)
 
 ![bezier2_screenshot.png](bezier2_screenshot.png)
 
@@ -410,8 +409,7 @@ It also uses a function coded here in Python to draw a line between any two x,y 
 
 It is possible to draw this spiral using the Numworks calculator's graphing app as well.
 
-## [Truchet Tiles using Python & Turtle](Truchet Tiles using Python & Turtle)
-
+## [truchet_numworks.py](truchet_numworks.py)
 
 ![truchet_numworks_screenshot.png](truchet_numworks_screenshot.png)
 
