@@ -3,6 +3,93 @@ Python code made to run on a Numworks calculator
 
 Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.com/python/vnap0v)
 
+## Contents
+
+   * [julia.py](https://github.com/oonap0oo/small-Python-projects#juliapy)
+
+   * [mandelbrot_nap0.py](https://github.com/oonap0oo/small-Python-projects#mandelbrot_nap0py)
+
+   * [mandelbrot_text.py](https://github.com/oonap0oo/small-Python-projects#mandelbrot_textpy)
+
+   * [sierpinsky.py](https://github.com/oonap0oo/small-Python-projects#sierpinskypy)
+
+   * [logistic2.py](https://github.com/oonap0oo/small-Python-projects#logistic2py)
+
+   * [gingerbread.py](https://github.com/oonap0oo/small-Python-projects#gingerbreadpy)
+
+   * [surf3d.py](https://github.com/oonap0oo/small-Python-projects#surf3dpy)
+
+   * [line3d.py](https://github.com/oonap0oo/small-Python-projects#line3dpy)
+
+   * [recursive_tree_numworks.py](https://github.com/oonap0oo/small-Python-projects#recursive_tree_numworkspy)
+
+   * [entend_kandinsky.py](https://github.com/oonap0oo/small-Python-projects#entend_kandinskypy)
+
+   * [Bezier curves](https://github.com/oonap0oo/small-Python-projects#Bezier curves)
+
+   * [tree.py](https://github.com/oonap0oo/small-Python-projects#treepy)
+
+   * [sphere.py](https://github.com/oonap0oo/small-Python-projects#spherepy)
+
+   * [mystify.py](https://github.com/oonap0oo/small-Python-projects#mystifypy)
+
+   * [lorenz.py](https://github.com/oonap0oo/small-Python-projects#lorenzpy)
+
+   * [fitdata.py](https://github.com/oonap0oo/small-Python-projects#fitdatapy)
+
+   * [leibniz.py](https://github.com/oonap0oo/small-Python-projects#leibnizpy)
+
+   * [simpsonrule.py](https://github.com/oonap0oo/small-Python-projects#simpsonrulepy)
+
+   * [runge.py](https://github.com/oonap0oo/small-Python-projects#rungepy)
+
+   * [mass_spring_damper_runge.py](https://github.com/oonap0oo/small-Python-projects#mass_spring_damper_rungepy)
+
+   * [pendulum_runge4.py](https://github.com/oonap0oo/small-Python-projects#pendulum_runge4py)
+
+   * [orbit.py](https://github.com/oonap0oo/small-Python-projects#orbitpy)
+
+   * [trajectory_drag_numworks.py](https://github.com/oonap0oo/small-Python-projects#trajectory_drag_numworkspy)
+
+   * [ode2.py](https://github.com/oonap0oo/small-Python-projects#ode2py)
+
+   * [euler_spiral.py](https://github.com/oonap0oo/small-Python-projects#euler_spiralpy)
+
+   * [Truchet Tiles using Python & Turtle](https://github.com/oonap0oo/small-Python-projects#Truchet Tiles using Python & Turtle)
+
+   * [turtle_python_logo_numworks.py](https://github.com/oonap0oo/small-Python-projects#turtle_python_logo_numworkspy)
+
+   * [random_walk.py](https://github.com/oonap0oo/small-Python-projects#random_walkpy)
+
+   * [rms.py](https://github.com/oonap0oo/small-Python-projects#rmspy)
+
+   * [rc.py](https://github.com/oonap0oo/small-Python-projects#rcpy)
+
+   * [heron.py](https://github.com/oonap0oo/small-Python-projects#heronpy)
+
+   * [bal.py](https://github.com/oonap0oo/small-Python-projects#balpy)
+
+   * [rpn.py](https://github.com/oonap0oo/small-Python-projects#rpnpy)
+
+   * [monte.py](https://github.com/oonap0oo/small-Python-projects#montepy)
+
+   * [resistor.py](https://github.com/oonap0oo/small-Python-projects#resistorpy)
+
+   * [colorcode.py](https://github.com/oonap0oo/small-Python-projects#colorcodepy)
+
+   * [quirk.py](https://github.com/oonap0oo/small-Python-projects#quirkpy)
+
+   * [stopwatch.py](https://github.com/oonap0oo/small-Python-projects#stopwatchpy)
+
+   * [stopwatch7segments.py](https://github.com/oonap0oo/small-Python-projects#stopwatch7segmentspy)
+
+   * [ellipse.py](https://github.com/oonap0oo/small-Python-projects#ellipsepy)
+
+   * [ohm.py](https://github.com/oonap0oo/small-Python-projects#ohmpy)
+
+   * [matrix.py](https://github.com/oonap0oo/small-Python-projects#matrixpy)
+
+
 ## [julia.py](julia.py)
 
 
