@@ -287,6 +287,25 @@ System of first order ODEs
 
 These are solved numerically using Euler's method. Plot made using matplotlib.
 
+## [ode2.py](ode2.py)
+
+![ode2_screenshot2.png](ode2_screenshot2.png)
+
+![ode2_screenshot3.png](ode2_screenshot3.png)
+
+
+This script allows to compute a solution to a first order Ordinary Differential Equation (ODE).
+
+    dy/dx = f(x,y)
+
+The expression for f(x,y) can be entered along with initial conditions and other parameters.
+
+Values are calculated using a Runge-Kutta algoritm.
+
+The values for x and y can be listed. 
+
+The solution is then plotted along with the slope field for the ODE.
+
 ## [euler_spiral.py](euler_spiral.py)
 
 
