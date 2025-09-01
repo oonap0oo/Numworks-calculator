@@ -92,6 +92,8 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
    * [matrix.py](https://github.com/oonap0oo/Numworks-calculator#matrixpy)
 
+   * [exec_decision_maker.py](https://github.com/oonap0oo/Numworks-calculator#exec_decision_makerpy)
+
 ## [julia.py](julia.py)
 
 
@@ -644,3 +646,20 @@ example:
     A=[[6, -5],
        [-7, 2]]
     b=[2, -3]
+
+## [exec_decision_maker.py](exec_decision_maker.py)
+
+** EXECUTIVE DECISION MAKER **
+
+![exec_decision_maker.py_screenshot.png](exec_decision_maker.py_screenshot.png)
+
+This script is inspired on a device Radio Shack used to sell. Meant as a joke it generates random "executive decisions".
+
+A bit of animation is build in.
+
+The script uses the following libraries:
+
+* **kandinsky** for drawing and text positioning
+* **ion** to react on key press
+* **time** to time the simple animations
+* **random** to generate the random decisions
