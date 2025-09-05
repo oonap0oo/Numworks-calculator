@@ -673,7 +673,7 @@ The script uses the following libraries:
 
 ![durand_kerner_screenshot2.png](durand_kerner_screenshot2.png)
 
-* Quadratic equations solving using the  Durand–Kerner method *
+** Quadratic equations solving using the Durand–Kerner method **
 
     x\*\*4 + a \* x\*\*3 + b * x\*\*2 + c \* x + d = 0
 
