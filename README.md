@@ -667,7 +667,7 @@ The script uses the following libraries:
 * **time** to time the simple animations
 * **random** to generate the random decisions
 
-##[durand_kerner.py](durand_kerner.py)
+## [durand_kerner.py](durand_kerner.py)
 
 ![durand_kerner_screenshot1.png](durand_kerner_screenshot1.png)
 
