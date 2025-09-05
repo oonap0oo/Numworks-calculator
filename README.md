@@ -94,6 +94,9 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
    * [exec_decision_maker.py](https://github.com/oonap0oo/Numworks-calculator#exec_decision_makerpy)
 
+   * [durand_kerner.py](https://github.com/oonap0oo/Numworks-calculator#durand_kernerpy)
+
+
 ## [julia.py](julia.py)
 
 
@@ -663,3 +666,22 @@ The script uses the following libraries:
 * **ion** to react on key press
 * **time** to time the simple animations
 * **random** to generate the random decisions
+
+##[durand_kerner.py](durand_kerner.py)
+
+![durand_kerner_screenshot1.png](durand_kerner_screenshot1.png)
+
+![durand_kerner_screenshot2.png](durand_kerner_screenshot2.png)
+
+* Quadratic equations solving using the  Durand–Kerner method *
+
+    x**4 + a * x**3 + b * x**2 + c * x + d = 0
+
+The quadratic equation can be solved using a number of iterations according to the Durand–Kerner method.
+
+The script accepts the values for coefficients a,b,c,d.
+
+It then lists the roots with the residual. Roots can be complex numbers.
+
+The script uses no imported libraries, it can also run in CPython on a PC.
+
