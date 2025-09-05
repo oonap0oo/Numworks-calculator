@@ -675,7 +675,7 @@ The script uses the following libraries:
 
 * Quadratic equations solving using the  Durand–Kerner method *
 
-    x**4 + a * x**3 + b * x**2 + c * x + d = 0
+    x\*\*4 + a \* x\*\*3 + b * x\*\*2 + c \* x + d = 0
 
 The quadratic equation can be solved using a number of iterations according to the Durand–Kerner method.
 
