@@ -5,96 +5,137 @@ Also find these on [https://my.numworks.com/python/vnap0v](https://my.numworks.c
 
 ## Contents
 
-   
-   * [Content](https://github.com/oonap0oo/Numworks-calculator#Content)
-
    * [julia.py](https://github.com/oonap0oo/Numworks-calculator#juliapy)
+This code displays the Julia set. It uses the kandinsky module. 
 
    * [mandelbrot_nap0.py](https://github.com/oonap0oo/Numworks-calculator#mandelbrot_nap0py)
+There is a official Numworks Mandelbrot script. This is a different version made from scratch. Uses the library kandinsky. 
 
    * [mandelbrot_text.py](https://github.com/oonap0oo/Numworks-calculator#mandelbrot_textpy)
+This code displays a text output of the Mandelbrot fractal. The text is colored, to achieve this the kandinsky library is used with the draw_string() function.
 
    * [sierpinsky.py](https://github.com/oonap0oo/Numworks-calculator#sierpinskypy)
+Draws a Sierpinsky triangle on the screen.
 
    * [logistic2.py](https://github.com/oonap0oo/Numworks-calculator#logistic2py)
+Function logistic_map() draws the bifurcation diagram of the logistic map on the screen. Uses libraries math and kandinsky. 
 
    * [gingerbread.py](https://github.com/oonap0oo/Numworks-calculator#gingerbreadpy)
+This script draws a “Gingerbread man” fractal.
 
    * [surf3d.py](https://github.com/oonap0oo/Numworks-calculator#surf3dpy)
+This script draws a 3D surface plot. The expression to plot is defined in a python function which takes 2 arguments (x,y) and returns z.
 
    * [line3d.py](https://github.com/oonap0oo/Numworks-calculator#line3dpy)
+This script plots sets of 3 expressions x=f(t),y=g(t),z=h(t)using a simple 3D projection. The expressions to plot are defined in a python function which takes one argument t and returns three values for x,y and z. 
 
    * [recursive_tree_numworks.py](https://github.com/oonap0oo/Numworks-calculator#recursive_tree_numworkspy)
+This script draws recursively generated trees. A lot of the tree's parameters have random variation. The code uses Turtle graphics for drawing
 
    * [entend_kandinsky.py](https://github.com/oonap0oo/Numworks-calculator#entend_kandinskypy)
+The Kandinsky library has functions to directly draw to the screen but it does not contain a function to draw a line between any two points or a function to draw circles. This script add those functions and displays a test.
 
    * [bezier2.py](https://github.com/oonap0oo/Numworks-calculator#bezier2py)
+This script defines functions which can draw Bezier curves using the kandinsky library
 
    * [tree.py](https://github.com/oonap0oo/Numworks-calculator#treepy)
+This program draws a tree using recursive function calls. It uses the turtle module for the drawing. 
 
    * [sphere.py](https://github.com/oonap0oo/Numworks-calculator#spherepy)
+This code draws a rotating sphere using the kandinsky module. It also uses the sleep function of the time module and sin(), cos() from the math module. 
 
    * [mystify.py](https://github.com/oonap0oo/Numworks-calculator#mystifypy)
+This script displays a simplified “Mystify” screensaver known from past versions of MS Windows.
 
    * [lorenz.py](https://github.com/oonap0oo/Numworks-calculator#lorenzpy)
+This script draws a sample solution to the Lorenz System. it uses a simple Euler method to calculate the values. 
 
    * [fitdata.py](https://github.com/oonap0oo/Numworks-calculator#fitdatapy)
+The Numworks calculator has the Regression app to find polynomials which best fit given data. The calculator’s Python app has a numpy library which contains the function polyfit() for the same purpose. Another function called polyval() evaluates a polynomial for a set of x values. This script demonstrates numpy.polyfit() and numpy.polyval(). T
 
    * [leibniz.py](https://github.com/oonap0oo/Numworks-calculator#leibnizpy)
+Leibniz formula for approximation of pi. The script shows the approximation after a first number of iterations. Matplotlib and numpy are used to plot the values.
 
    * [simpsonrule.py](https://github.com/oonap0oo/Numworks-calculator#simpsonrulepy)
+The Numworks calculator can calculate definite integrals without coding using the Calculation or Grapher apps. However this script explores the "1/3 Simpson rule" for definite integrals. 
 
    * [runge.py](https://github.com/oonap0oo/Numworks-calculator#rungepy)
+This script uses the 4-order Runge-Kutta method to solve a differential equation. As example a simple exponential decay function is used. The solution is plotted together with the directly calculated exponential function.
 
    * [mass_spring_damper_runge.py](https://github.com/oonap0oo/Numworks-calculator#mass_spring_damper_rungepy)
+This scripts plots a solution for the dampened mass-spring system. It uses the Runge-Kutta method.
 
    * [pendulum_runge4.py](https://github.com/oonap0oo/Numworks-calculator#pendulum_runge4py)
+Damped, driven pendulum. This script calculates a solution to the ODE for a driven pendulum with damping. The script uses a 4th order Runge-Kutta method to calculate a solution of this system. This solution is then plotted.
 
    * [orbit.py](https://github.com/oonap0oo/Numworks-calculator#orbitpy)
+This script simulates the trajectory of orbiting satellites. It shows one geostationary orbit and one elliptical.
 
    * [trajectory_drag_numworks.py](https://github.com/oonap0oo/Numworks-calculator#trajectory_drag_numworkspy)
+Ballistic trajectory of projectile with drag proportional to square of velocity. The ODEs are solved numerically using Euler's method. Plot made using matplotlib.
 
    * [ode2.py](https://github.com/oonap0oo/Numworks-calculator#ode2py)
+This script allows to compute a solution to a given first order Ordinary Differential Equation (ODE). Values are calculated using a Runge-Kutta algoritm. The values for x and y can be listed. The solution is then plotted along with the slope field for the ODE.
 
    * [euler_spiral.py](https://github.com/oonap0oo/Numworks-calculator#euler_spiralpy)
+This script draws an "Euler's Spiral" also known as "Cornu Spiral". Two Fresnel integrals have to be calculated, this code uses a Maclaurin series approximation.
 
    * [truchet_numworks.py](https://github.com/oonap0oo/Numworks-calculator#truchet_numworkspy)
+This script is a strong simplification of a version made for CPython to run on a PC see: GitHub [truchet_tiles2.py](https://github.com/oonap0oo/Python-and-Turtle?tab=readme-ov-file#truchet_tiles2py)
 
    * [turtle_python_logo_numworks.py](https://github.com/oonap0oo/Numworks-calculator#turtle_python_logo_numworkspy)
+Turtle graphics does have a circle function but no ellipse. This script defines a function to draw an ellipse using Turtle graphics. The ellipse function is then used to draw a python logo using Turtle graphics.
 
    * [random_walk.py](https://github.com/oonap0oo/Numworks-calculator#random_walkpy)
+Two-dimensional Lattice random walk. This script shows random walks on a 2D lattice. When the walk goes beyond limits the process starts over.
 
    * [rms.py](https://github.com/oonap0oo/Numworks-calculator#rmspy)
+This script calculates the average and root mean square values of some common waveforms.
 
    * [rc.py](https://github.com/oonap0oo/Numworks-calculator#rcpy)
+This script defines a number of functions to calculate the impedance of resistor - capacitor combinations
 
    * [heron.py](https://github.com/oonap0oo/Numworks-calculator#heronpy)
+Defines a function heronarea() which calculates the area of a triangle in terms of the three side lengths. 
 
    * [bal.py](https://github.com/oonap0oo/Numworks-calculator#balpy)
+This code tests the matplotlib library of the calculator. It plots ballistic trajectories for a series of different starting angles.
 
    * [rpn.py](https://github.com/oonap0oo/Numworks-calculator#rpnpy)
+This script implements a simple Reverse Polish Notation calculator. Numbers are entered on the stack before the operators.
 
    * [monte.py](https://github.com/oonap0oo/Numworks-calculator#montepy)
+This uses Monte Carlo method to calculate the effect of resistor spread on the output voltage of a 2 resistor voltage divider. 
 
    * [resistor.py](https://github.com/oonap0oo/Numworks-calculator#resistorpy)
+This script finds the best approximation of an arbitrary resistance value using two series or two parallel resistors out of the standard E12 and E24 series. 
 
    * [colorcode.py](https://github.com/oonap0oo/Numworks-calculator#colorcodepy)
+By entering the color-bands of a resistor this scripts gives the value and tolerance. Works with 4 band or 5 band resistors. 
 
    * [quirk.py](https://github.com/oonap0oo/Numworks-calculator#quirkpy)
+This script demonstrates a quirk with the numpy implementation in Numworks. When tested with software version 23.2.6. 
 
    * [stopwatch.py](https://github.com/oonap0oo/Numworks-calculator#stopwatchpy)
+This implements a simple stopwatch. It uses the time module for the monotonic() function. 
 
    * [stopwatch7segments.py](https://github.com/oonap0oo/Numworks-calculator#stopwatch7segmentspy)
+Stopwatch which displays time in 7 segment characters similar to vintage equipment. The 7 segment characters are drawn using Kandinsky library.
 
    * [ellipse.py](https://github.com/oonap0oo/Numworks-calculator#ellipsepy)
+There is no closed-form expression for the circumference of an ellipse. This script approximates the circumference using the sum of a series. 
 
    * [ohm.py](https://github.com/oonap0oo/Numworks-calculator#ohmpy)
+This ‘Ohms law helper’ allows you to type the two known variables with the unit added for example 5V or 0.1A or 10000ohm and the script automatically calculates the third variable which was unknown.
 
    * [matrix.py](https://github.com/oonap0oo/Numworks-calculator#matrixpy)
+This script defines two functions, they can be used to solve a linear system of 2 equations with 2 variables or linear system of 3 equations with 3 variables.
 
    * [exec_decision_maker.py](https://github.com/oonap0oo/Numworks-calculator#exec_decision_makerpy)
+This script is inspired on a device Radio Shack used to sell. Meant as a joke it generates random "executive decisions". A bit of animation is build in.
 
    * [durand_kerner.py](https://github.com/oonap0oo/Numworks-calculator#durand_kernerpy)
+A given quadratic equation can be solved using a number of iterations according to the Durand–Kerner method. The script accepts the values for coefficients a,b,c,d. It then lists the roots with the residual. Roots can be complex numbers.
 
 
 ## [julia.py](julia.py)
