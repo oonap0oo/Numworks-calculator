@@ -137,6 +137,10 @@ This script is inspired on a device Radio Shack used to sell. Meant as a joke it
    * [durand_kerner.py](https://github.com/oonap0oo/Numworks-calculator#durand_kernerpy)
 A given quadratic equation can be solved using a number of iterations according to the Durand–Kerner method. The script accepts the values for coefficients a,b,c,d. It then lists the roots with the residual. Roots can be complex numbers.
 
+ * [lotka_volterra.py](https://github.com/oonap0oo/Numworks-calculator#lotka_volterrapy)
+This script calculates and plots a solution to the predator–prey model.
+
+
 
 ## [julia.py](julia.py)
 
@@ -725,4 +729,34 @@ The script accepts the values for coefficients a,b,c,d.
 It then lists the roots with the residual. Roots can be complex numbers.
 
 The script uses no imported libraries, it can also run in CPython on a PC.
+
+## [lotka_volterra.py](lotka_volterra.py)
+
+![lotka_volterra_screenshot.png](lotka_volterra_screenshot.png)
+
+<b>Lotka–Volterra predator–prey model</b>
+
+This script calculates and plots a solution to the predator–prey model.
+
+It uses a simple Euler method, values are stored in numpy arrays for memory efficiency.
+
+Lotka–Volterra system is defined by two first order ODEs:
+
+    dx/dt = alpha.x - beta.x.y   
+
+    dy/dt = -gamma*y + delta.x.y 
+
+* x is the prey population
+* y is the predator population density
+* alpha is the maximum prey per capita
+  growth rate
+* beta is the effect of the presence
+  of predators on the prey death rate
+* gamma is the predator's per capita
+  death rate
+* delta is the effect of the presence
+  of prey on the predator's growth rate
+
+The script imports numpy and matplotlib.
+
 
