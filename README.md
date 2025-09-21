@@ -140,7 +140,8 @@ A given quadratic equation can be solved using a number of iterations according 
  * [lotka_volterra.py](https://github.com/oonap0oo/Numworks-calculator#lotka_volterrapy)
 This script calculates and plots a solution to the predator–prey model.
 
-
+ * [koch_snowflake.py](https://github.com/oonap0oo/Numworks-calculator#koch_snowflakepy)
+This script uses recursion to construct the Koch Snowflake and Antisnowflake.
 
 ## [julia.py](julia.py)
 
@@ -758,5 +759,27 @@ Lotka–Volterra system is defined by two first order ODEs:
   of prey on the predator's growth rate
 
 The script imports numpy and matplotlib.
+
+## [koch_snowflake.py](koch_snowflake.py)
+
+![koch_snowflake_screenshot.png](koch_snowflake_screenshot.png)
+
+The Koch Snowflake is a fractal curve. The Antisnowflake is a variation. 
+
+This script uses recursion to construct the fractal.
+
+Drawing is done using the turtle module.
+
+Two Python functions are defined:
+
+1. draw_koch_curve(length, recursion_depth, draw_anti_snowflake = False)
+
+   This function draws a Koch curve which is used for the sides of the snow flakes.
+   It calls itself recursively to construct the fractal shape
+
+2. draw_koch_snowflake(center_xy, length_side, recursion_depth, draw_anti_snowflake = False):
+
+   This function calls draw_koch_curve() three times to draw the snowflake
+
 
 
