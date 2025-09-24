@@ -148,7 +148,9 @@ This script uses recursion to construct the Koch Snowflake and Antisnowflake.
 
 ![julia_screenshot.png](julia_screenshot.png)
 
-This code displays the Julia set. It uses the kandinsky module. Tested on the calculator using software version 23.2.6.
+This code displays a colorful Julia Fractal.
+
+It uses the kandinsky and math modules.
 
 ## [mandelbrot_nap0.py](mandelbrot_nap0.py)
 
