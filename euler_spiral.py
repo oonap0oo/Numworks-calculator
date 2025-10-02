@@ -1,28 +1,16 @@
 import kandinsky
 
-# factorial not natively available in Numworks
-def factorial(n):
-  fact=1
-  for k in range(2,n+1):
-    fact*=k
-  return fact
-
 # Fresnel integrals using Maclaurin series 
-def S(x,Nsteps):
-  sum=0
-  sign=1
-  for n in range(Nsteps):
-    sum+=sign*x**(4*n+3)/(factorial(2*n+1)*(4*n+3))
-    sign=-sign
-  return sum
-
-def C(x,Nsteps):
-  sum=0
-  sign=1
-  for n in range(Nsteps):
-    sum+=sign*x**(4*n+1)/(factorial(2*n)*(4*n+1))
-    sign=-sign
-  return sum
+def fresnel(x, Nsteps):
+    S = 0; C = 0
+    sign = 1  
+    for n in range(Nsteps):
+        fact_2n = fact_2n_plus_1 * 2 * n if n > 0 else 1 # 0! = 1
+        fact_2n_plus_1 = fact_2n * (2*n + 1) # (2n+1)! = (2n+1).(2n)!
+        S += sign * x**(4*n + 3) / ( fact_2n_plus_1 * (4*n + 3) )
+        C += sign * x**(4*n + 1) / ( fact_2n * (4*n + 1) )
+        sign = -sign
+    return S, C
 
 # draw a line between any two points
 def connect(x1,y1,x2,y2,co="black"):
@@ -37,17 +25,17 @@ def connect(x1,y1,x2,y2,co="black"):
     kandinsky.set_pixel(int(x+.5),int(y+.5),co)
     x+=dx;y+=dy
 
-kandinsky.fill_rect(0,0,320,230,"black")
-
 # parameters
 Npoints=800 # number of x,y points calculated
 Nmaclaurin=50 # number of terms for series
 # drawing loop
+kandinsky.fill_rect(0,0,320,230,"black")
 first_iter=True
 for k in range(-Npoints//2,Npoints//2):
   p=10*k/(Npoints-1) # variable used for Maclaurin series
-  x=int(160+C(p,Nmaclaurin)*110+.5)
-  y=int(115-110*S(p,Nmaclaurin)+.5)
+  S_fresnel, C_fresnel = fresnel(p, Nmaclaurin)
+  x=int(160+C_fresnel*110+.5)
+  y=int(115-110*S_fresnel+.5)
   if first_iter: # first run initialise x_old,y°old
     x_old,y_old=x,y
     first_iter=False
