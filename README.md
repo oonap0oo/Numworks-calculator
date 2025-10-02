@@ -456,8 +456,6 @@ This script draws an "Euler's Spiral" also known as "Cornu Spiral".
 
 Two Fresnel integrals have to be calculated, this code uses a Maclaurin series approximation.
 
-Also the Numworks math module does not seem to have a factorial function, so this had to be coded as well.
-
 It also uses a function coded here in Python to draw a line between any two x,y points.
 
 It is possible to draw this spiral using the Numworks calculator's graphing app as well.
