@@ -143,6 +143,9 @@ This script calculates and plots a solution to the predator–prey model.
  * [koch_snowflake.py](https://github.com/oonap0oo/Numworks-calculator#koch_snowflakepy)
 This script uses recursion to construct the Koch Snowflake and Antisnowflake.
 
+ * [convert_base2.py](convert_base2py)
+Convert number from one base to another base
+
 ## [julia.py](julia.py)
 
 
@@ -780,6 +783,28 @@ Two Python functions are defined:
 2. draw_koch_snowflake(center_xy, length_side, recursion_depth, draw_anti_snowflake = False):
 
    This function calls draw_koch_curve() three times to draw the snowflake
+
+## [convert_base2.py](convert_base2.py)
+
+Convert number from one base to another base
+
+Although micropython can do these convertions using int(), hex(), oct() and bin(). The convertion is coded in Python for fun.
+
+There are two functions defined, first function converts from arbitrary base to base 10, second fucntion converts from base 10 to new base
+
+* tobase10(s, base)
+   - convert number to base 10
+   - s: string representation of number
+   -  base: integer stating number base of s
+   - returns: integer version of s in base 10
+
+* frombase10(x, base)
+   - convert number from base 10 to another base
+   - x: integer representation of number
+   - base: integer stating number base to convert to
+   -  returns: string representation of x in new base
+
+  ![convert_base2_screenshot.png](convert_base2_screenshot.png)
 
 
 
