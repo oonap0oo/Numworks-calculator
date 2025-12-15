@@ -143,7 +143,7 @@ This script calculates and plots a solution to the predator–prey model.
  * [koch_snowflake.py](https://github.com/oonap0oo/Numworks-calculator#koch_snowflakepy)
 This script uses recursion to construct the Koch Snowflake and Antisnowflake.
 
- * [convert_base2.py](convert_base2py)
+ * [convert_base2.py](https://github.com/oonap0oo/Numworks-calculator#convert_base2py)
 Convert number from one base to another base
 
 ## [julia.py](julia.py)
