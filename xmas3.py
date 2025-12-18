@@ -2,6 +2,7 @@
 from math import * 
 from random import *
 import kandinsky
+import time
 
 # function draws a line using kandinsky library
 # start point:(x1,y1), end point:(x2,y2)
@@ -37,7 +38,7 @@ def calcxy(angle):
 N=350
 Nstar=25
 cycles=16
-col=("blue","red","yellow","pink","orange","purple")
+col=("red","yellow","pink","orange","purple")
 col_bg=(20,20,100)
 col_bg_star=(40,40,200)
 # background
@@ -57,13 +58,16 @@ for k in range(N):
     connect(x,y+1,x_old,y_old+1,kandinsky.color("green"))
 #    connect(x,y-1,x_old,y_old-1,kandinsky.color("green"))
   x_old=x;y_old=y
-# draw stars on tree
-for k in range(Nstar):
-  kn=k/(Nstar)
-  angle=kn*2*3.14*cycles
-  x,y=calcxy(angle)
-  co = kandinsky.color(choice(col))
-  star(x,y,8,co)
+while True:
+  # draw stars on tree
+  for k in range(Nstar):
+    kn=k/(Nstar)
+    angle=kn*2*3.14*cycles
+    x,y=calcxy(angle)
+    co = kandinsky.color(choice(col))
+    star(x,y,7,co)
+    star(x,y+1,7,co)
+  time.sleep(0.4)
 
 
 
