@@ -146,7 +146,7 @@ This script uses recursion to construct the Koch Snowflake and Antisnowflake.
  * [convert_base2.py](https://github.com/oonap0oo/Numworks-calculator#convert_base2py)
 Convert number from one base to another base
 
- * [xmas2.py](https://github.com/oonap0oo/Numworks-calculator#xmas2py)
+ * [xmas3.py](https://github.com/oonap0oo/Numworks-calculator#xmas3py)
 Drawing a xmas tree.
 
 ## [julia.py](julia.py)
@@ -809,18 +809,17 @@ There are two functions defined, first function converts from arbitrary base to 
 
   ![convert_base2_screenshot.png](convert_base2_screenshot.png)
 
-## [xmas2.py](xmas2.py)
+## [xmas3.py](xmas3.py)
 
 Drawing a xmas tree.
 
 Uses following modules:
 
-* turtle for deawing
-* kandinsky for background color
+* kandinsky for drawing
 * random for colors of stars and position og background stars
 * math to calculate the spirals using cos() and sin()
 
-![xmas_screenshot.png](xmas_screenshot.png)
+![xmas3_screenshot.png](xmas3_screenshot.png)
 
 
 
