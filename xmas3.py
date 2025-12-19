@@ -28,9 +28,9 @@ def star(x,y,size,col):
     y2=y+size*sin(angle)
     connect(x,y,x2,y2,col)
 
-def calcxy(angle):
-  x=160+int((90*kn+4)*cos(angle))
-  y=20+int(180*kn+20*kn*sin(angle))
+def calcxy(angle,size):
+  x=160+int((90*size+4)*cos(angle))
+  y=20+int(180*size+20*size*sin(angle))
   return x,y 
 
     
@@ -52,7 +52,7 @@ kandinsky.fill_rect(155,200,10,40,kandinsky.color("brown"))
 for k in range(N):
   kn=k/(N-1)
   angle=kn*2*3.14*cycles
-  x,y=calcxy(angle)
+  x,y=calcxy(angle,kn)
   if k>1:
     connect(x,y,x_old,y_old,kandinsky.color("green"))
     connect(x,y+1,x_old,y_old+1,kandinsky.color("green"))
@@ -63,7 +63,7 @@ while True:
   for k in range(Nstar):
     kn=k/(Nstar)
     angle=kn*2*3.14*cycles
-    x,y=calcxy(angle)
+    x,y=calcxy(angle,kn)
     co = kandinsky.color(choice(col))
     star(x,y,7,co)
     star(x,y+1,7,co)
