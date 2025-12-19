@@ -816,7 +816,7 @@ Drawing a xmas tree.
 Uses following modules:
 
 * kandinsky for drawing
-* random for colors of stars and position og background stars
+* random for colors of stars and position of background stars
 * math to calculate the spirals using cos() and sin()
 
 ![xmas3_screenshot.png](xmas3_screenshot.png)
