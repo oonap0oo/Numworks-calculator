@@ -150,7 +150,7 @@ Convert number from one base to another base
 Drawing a xmas tree.
 
  * [roots.py](https://github.com/oonap0oo/Numworks-calculator#rootspy)
-Search for multiple roots of a function in a given interval
+Numerically find multiple roots of a function.
 
 ## [julia.py](julia.py)
 
@@ -826,13 +826,13 @@ Uses following modules:
 
 ## [roots.py](roots.py)
 
-Search for multiple roots of a function in a given interval
+Numerically find multiple roots of a function.
 
 As described in NUMERICAL METHODS FOR ENGINEERS  8th Edition
 
-Incremental search for sign changes of function adapted from pseudocode on page 142
+ * Incremental search for sign changes of function adapted from pseudocode on page 142
 
-Combined with Modified False Position root finding method adapted from pseudocode on page 141
+ * Combined with Modified False Position root finding method adapted from pseudocode on page 141
 
 This code allows the user to enter a function of x and an interval on the x-axis.
 
