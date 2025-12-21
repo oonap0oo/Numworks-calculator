@@ -149,6 +149,9 @@ Convert number from one base to another base
  * [xmas3.py](https://github.com/oonap0oo/Numworks-calculator#xmas3py)
 Drawing a xmas tree.
 
+ * [roots.py](https://github.com/oonap0oo/Numworks-calculator#rootspy)
+Search for multiple roots of a function in a given interval
+
 ## [julia.py](julia.py)
 
 
@@ -821,5 +824,21 @@ Uses following modules:
 
 ![xmas3_screenshot.png](xmas3_screenshot.png)
 
+## [roots.py](roots.py)
 
+Search for multiple roots of a function in a given interval
+
+As described in NUMERICAL METHODS FOR ENGINEERS  8th Edition
+
+Incremental search for sign changes of function adapted from pseudocode on page 142
+
+Combined with Modified False Position root finding method adapted from pseudocode on page 141
+
+This code allows the user to enter a function of x and an interval on the x-axis.
+
+The interval is searched for sign changes, these points are further refined yielding the roots using modified false position.
+
+![roots_screenshot1.png](roots_screenshot1.png)
+
+![roots_screenshot2.png](roots_screenshot2.png)
 
