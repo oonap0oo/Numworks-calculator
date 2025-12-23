@@ -838,6 +838,8 @@ This code allows the user to enter a function of x and an interval on the x-axis
 
 The interval is searched for sign changes, these points are further refined yielding the roots using modified false position.
 
+Afterwards a plot is show of the function with the found roots.
+
 ![roots_plot_screenshot2.png](roots_plot_screenshot2.png)
 
 ![roots_plot_screenshot3.png](roots_plot_screenshot3.png)
