@@ -152,6 +152,11 @@ Drawing a xmas tree.
  * [roots_plot.py](https://github.com/oonap0oo/Numworks-calculator#roots_plotpy)
 Numerically find multiple roots of a function.
 
+ * [machine_eps.py](https://github.com/oonap0oo/Numworks-calculator#machine_epspy)
+Determine machine epsilon through test.
+
+
+
 ## [julia.py](julia.py)
 
 
@@ -846,3 +851,17 @@ Afterwards a plot is show of the function with the found roots.
 
 ![roots_plot_screenshot4.png](roots_plot_screenshot4.png)
 
+## [machine_eps.py](machine_eps.py)
+
+Determine machine epsilon through test
+
+Machine epsilon  is smallest value such that (1.0 + epsilon) is still distinguishable from 1.0  by the system
+
+In CPython implementations this value can be found directly using 
+
+    import sys
+    print(sys.float_info.epsilon)
+
+However the micropython of Numworks does not have a sys module
+
+![machine_eps_screenshot.png](machine_eps_screenshot.png)
