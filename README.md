@@ -57,10 +57,21 @@ Tested on the calculator using software version 23.2.6.
 
 ## [surf3d.py](surf3d.py)
 
-![surf3d_screenshot.png](surf3d_screenshot.png)
-![surf3d_screenshot2.png](surf3d_screenshot2.png)
+![surf3d.png](surf3d.png)
 
-This script draws a 3D surface plot. The expression to plot is defined in a python function which takes 2 arguments (x,y) and returns z. Plotting is performed by python function surf() which takes arguments telling it which function to plot and the ranges on x,y and z axis. An optional text string can be added to the plot. It uses only the math and kandinsky libraries. Tested on the calculator using software version 23.2.6.
+This script draws a 3D surface plot with hidden-line removal. 
+
+The expression to plot is defined in a python function which takes 2 arguments (x,y) and returns z. 
+
+Plotting is performed by python function surf() which takes arguments telling it which function to plot and the ranges on x,y and z axis. An optional text string can be added to the plot. 
+
+The script uses a function which extends the functionality of the kandinsky module:
+
+connect draws a line between two arbitrary points
+
+    connect(x1,y1,x2,y2,co="black")
+
+The script uses only the math and kandinsky libraries. 
 
 ## [line3d.py](line3d.py)
 
